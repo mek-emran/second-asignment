@@ -181,7 +181,7 @@ main{
 }
 
 .bloom-img{
-    background-image: url(../assets/deal-bloom.png);
+    background-image: url(./assets/deal-bloom.png);
     background-size: cover;
     background-position: center;
     width: 367px;
@@ -196,7 +196,7 @@ main{
     
 }
 .ana-img{
-    background-image: url(../assets/deal-ana.png);
+    background-image: url(./assets/deal-ana.png);
     background-size: cover;
     background-position: center;
     width: 367px;
@@ -223,7 +223,7 @@ main{
     color: #ffffff;
 }
 .zabo-img{
-    background-image: url(../assets/deal-zabo.png);
+    background-image: url(./assets/deal-zabo.png);
     background-size: cover;
     background-position: center;
     width: 753px;
@@ -257,7 +257,7 @@ main{
     height: 533px;
 } */
  .join-bg{
-     background-image:url(../assets/news-letter-bg.png);
+     background-image:url(./assets/news-letter-bg.png);
      margin-top: 120px;
       
       
@@ -335,6 +335,10 @@ main{
  .footer-img{
     width: 135px;
     height: 82px;
+ }
+ .twitter-img{
+    width: 46px;
+    height: 29px;
  }
  .list-first-collum{
     width: 85px;

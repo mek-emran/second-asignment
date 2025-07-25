@@ -307,32 +307,18 @@ main{
 
  /* footer */
  footer{
-    padding: px 160px;
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    margin:  auto;
-    max-width: 1140px;
+    
+    padding: 2rem;
  }
  .footer-all-colloum{
-    display: flex;    
-    max-width: 1140px;   
+    display: flex;     
     justify-content: space-between;
-    width:1120px;
-    height: 284px;
-    margin-top:50px;
-    margin-bottom: 50px;
-    margin-left: 160px;
-    margin-right: 160px;
-    gap: 110.67px;   
+
  }
- .footer-first-collum{
-    width: 359px;
-    height: 179px;
- }
+
+
  .footer-img{
-    width: 135px;
-    height: 82px;
+    width: 5rem;
  }
  .twitter-img{
     width: 46px;
@@ -368,10 +354,11 @@ main{
  .list-item{
     margin-top: 10px;
  }
+footer ul li a{
+    text-decoration: none;
+}
 
 
-
- /* responsib */
 @media screen and (max-width: 576px) {
    /* Nav section */
 header{
@@ -457,3 +444,9 @@ header{
     width: 540px;
     height: 108px;
 }
+
+ .footer-all-colloum{
+    flex-direction: column;
+   text-align: left;
+
+ }
